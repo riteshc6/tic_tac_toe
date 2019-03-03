@@ -29,7 +29,7 @@ def play(row, col,turn):
     session["board"][row][col] = turn
 
     
-
+    
     if turn == "0":
         session["turn"] = "x"
     else:
